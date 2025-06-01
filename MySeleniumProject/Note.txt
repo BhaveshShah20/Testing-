@@ -1,0 +1,32 @@
+
+Environment setup
+---------------------
+1)Download jar file and attaching them to java project .(Manually)
+---------------
+->Create new project 
+->Downloaded web driver jars (.zip) and extracted.
+->attach jars to java project.
+
+Note:-This above process is manual proces means for every new we have to download 
+      and every time need to attach with project insted of this we can use maven project
+
+
+
+1.Go to Selenium website ->download->For Java
+2.Zip file will be downloaded
+3.Extract zip file in any particular new folder(Selenium jar files) in system or any drive(c,d,e)
+4.Download chromeDriver
+   -Go to: https://sites.google.com/chromium.org/driver/
+   -Download the version that matches your installed Chrome browser if not matches 
+    click on red link and select latest version and match to your  browser download it 
+   -Extract the zip and keep chromedriver.exe somewhere easy like:
+4.Create one folder (SeleniumProject)
+5.Inside SeleniumProject -> Libs -> Src folder created 
+6.Inside src  folder create Main.java file and add basic code 
+7.Copy all jar file from "Selenium Jar file" folder and paste it to ->SeleniumProject->Libs folder
+8.Run this command on terminal("javac -cp ".;lib/*" src/Main.java -d bin")
+
+
+
+
+2)Creating Maven project9
